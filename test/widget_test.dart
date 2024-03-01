@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('Timer App smoke test', (WidgetTester tester) async {
+    //test
     await tester.pumpWidget(const TimerApp());
 
     expect(find.text('01:00'), findsOneWidget);
